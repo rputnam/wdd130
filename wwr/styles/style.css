@@ -128,7 +128,7 @@ h2 {
     height: 725px;
     grid-column: 1/11;
     grid-row: 4/9;
-    width: 95%;
+    width: 100%;
 }
 .mountains {
     grid-column: 2/7;
