@@ -166,6 +166,7 @@ footer a {
 }
 footer p {
     font-size: 1.2em;
+    justify-content: space-around;
 }
 footer a:hover {
     color: #52557A;
