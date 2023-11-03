@@ -164,9 +164,11 @@ footer {
 footer a {
     color: #FFFFFF;
     text-decoration: none;
+    padding-right: 20px;
 }
 footer p {
     font-size: 1.2em;
+    margin-right: auto;
     justify-content: space-around;
 }
 footer a:hover {
