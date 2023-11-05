@@ -15,7 +15,7 @@ Fonts are separated by a | */
   --paragraph-font: Quicksand, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #E1B1A3;  /* headlines on a white background */ 
+  --headline-color-on-white: #DCA493;  /* headlines on a white background */ 
   --headline-color-on-color: #EFDAAD; /* headlines on a colored background */ 
   --paragraph-color-on-white: #304B44; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #EFDAAD; /* paragraph text on a colored background */ 
