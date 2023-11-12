@@ -184,6 +184,24 @@ footer .social img {
     width: 80px;
     padding-top: 10px;
 }
+.blog {
+    grid-column: 1/6;
+    grid-row: 1
+}
+.down-river {
+    display: inline;
+    width: 50px;
+    grid-column: 7/11;
+}
+.people-rafting {
+    grid-column: 7/11;
+}
+.bighorn {
+    grid-column: 7/11;
+}
+.helmet {
+    grid-column: 7/11;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
