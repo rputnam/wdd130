@@ -189,8 +189,6 @@ footer .social img {
     grid-row: 1
 }
 .down-river {
-    display: inline;
-    width: 50px;
     grid-column: 7/11;
 }
 .people-rafting {
