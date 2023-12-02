@@ -20,7 +20,7 @@ nav a {
 }
 nav a:hover {
     background-color: #e07a5f;
-    color: #52557A;
+    color: #FFFFFF;
 }
 .logo {
     width: 80px;
@@ -173,8 +173,6 @@ footer p {
 }
 footer a:hover {
     color: #52557A;
-}
-footer p a:hover {
     text-decoration: underline;
 }
 footer .social img {

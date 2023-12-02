@@ -9,6 +9,7 @@ div {
 /* Header */
 header {
     background-color: #304B44;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     font-size: 1.5em;
@@ -22,19 +23,80 @@ nav a {
     text-align: center; 
     text-decoration: none;
     color: #EFDAAD;
-    padding: 50px;
-    margin-top: 35px;
+    padding: 60px;
+   
     font-family: Arizona, Arial, sans-serif;
+}
+nav a:hover {
+    background-color: #A86163;
+    color: #EFDAAD;
+    text-decoration: underline;
 }
 .logo {
     width: 100%;
     height: 150px;
+    border-radius: 0%;
     }
 #logo_link {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
 }
+/*Add Search Bar CSS */
+/* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #304B44;
+  }
+  
+  /* Style the links inside the navigation bar */
+  /*.topnav a { 
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover 
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page 
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 60px;
+    margin-right: 60px;
+    font-size: 17px;
+  }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
+
 /* Hero */
 
 #hero {
@@ -130,4 +192,9 @@ footer a {
     color: #EFDAAD;
     text-decoration: none;
     padding-right: 20px;
+    margin-top: 35px;
+}
+footer a:hover {
+    color: #A86163;
+    text-decoration: underline;
 }
