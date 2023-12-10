@@ -192,13 +192,13 @@ nav a:hover {
 
 .aboutme-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }    
 .introduction {
     grid-column: 1/5;
     grid-row: 2/6;
     padding-left: 50px;
-    align-self: right;
+    text-align: center;
 }
 .profile {
     grid-column: 6/9;
