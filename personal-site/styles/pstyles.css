@@ -176,7 +176,7 @@ nav a:hover {
     margin-left: 40px;
 }
 .quote2 {
-    grid-column: 6/8;
+    grid-column: 5/8;
     grid-row: 5/8;
     color: #EFDAAD;
     margin-right: 100px;
@@ -186,19 +186,7 @@ nav a:hover {
 
 }
  /* Holiday Art Subpage Style */
- #background {
-    background-color: #304B44;
-    height: 300px;
-    width: 400px;
-    z-index: -1;
-    grid-column: 5/8;
-    grid-row: 5/7;
-    margin-top: 50px;
-    margin-right: 20px;
-    border-top-right-radius: 50%;
-    border-top-left-radius: 50%;
-    box-shadow: 5px 5px 10px #6f7364;
-}
+
 
 /* About Me Grid */
 
@@ -213,16 +201,21 @@ nav a:hover {
 .profile {
     grid-column: 6/8;
     grid-row: 1/4;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
 }
 .quote3 {
     grid-column: 3/7;
     grid-row: 5/6;
+    color: #A86163;
 }
 .snow-drop {
     grid-column: 4/7;
     grid-row: 8/9;
 }
+
 /* Styles */
+
 .quote {
     font-family: Ephesis, Arial, sans-serif;
     font-style: italic;
