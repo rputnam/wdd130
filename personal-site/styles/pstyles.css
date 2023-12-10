@@ -191,7 +191,7 @@ nav a:hover {
 /* About Me Grid */
 
 .aboutme-grid {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }    
 .introduction {
@@ -207,7 +207,7 @@ nav a:hover {
 .quote3 {
     grid-column: 3/7;
     grid-row: 6/7;
-    color: #A86163;
+    color: #EFDAAD;
 }
 .snow-drop {
     grid-column: 4/7;
