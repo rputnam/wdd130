@@ -125,10 +125,12 @@ nav a:hover {
 .tulip-pic {
     grid-column: 2/3;
     grid-row: 2/3; 
+    width: 100%;
 }
 .daffodil-pic {
     grid-column: 3/4;
     grid-row: 2/3;
+    width: 120%;
 }
 .nature_art {
     grid-column: 2/4;
@@ -193,7 +195,7 @@ nav a:hover {
     grid-column: 4/7;
     grid-row: 7/9;
     height: auto;
-    width: auto;
+    width: 600px;
 }
 
 /* Styles */
